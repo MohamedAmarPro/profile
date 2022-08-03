@@ -1,0 +1,95 @@
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .first-div {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .first-div {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .first-div {
+    width: 300px;
+  }
+  h1 {color: red;}
+}
+
+body {
+  background-color: #faedcd ;
+
+}
+
+.first-div {
+  box-shadow: 0 8px 10px #d4a373;
+  text-align: center;
+  width: 700px;
+  margin: 0px auto;
+  margin-bottom: 30px;
+  padding: 40px;
+}
+
+h1 {
+  color: #d4a373;
+  font-family:'Mouse Memoirs', sans-serif;
+  font-size: 35px;
+}
+h2 {
+  color: #d4a373;
+  font-family:'Mouse Memoirs', sans-serif;
+}
+
+p {
+  font-family:'Square Peg', cursive;
+  color: #606c38;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+a {
+  text-decoration: none;
+  background-color: #606c38;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0px ;
+}
+
+ul > li {
+  display: inline-block;
+  font-size: 30px;
+  padding: 0px 15px;
+}
+
+#btn-green {
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+#btn-green:hover {
+  opacity: 0.7;
+}
+
+#pics1 {
+  border-radius: 50%;
+}
+
+#pics-mercedes {
+  height: 300px;
+  background-image: url("https://images.pexels.com/photos/132657/pexels-photo-132657.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#pics-mercedes h2{
+  color: white;
+}
+
